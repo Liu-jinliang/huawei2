@@ -1,0 +1,171 @@
+html{
+    background-color: white;
+}
+.top{
+    width: 100%;
+    background-color: #F2F2F2;
+}
+.center{
+    width: 1200px;
+    margin: auto;
+    /* background-color: yellow; */
+
+}
+.logo{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.logo1>img{
+    width: 108px;
+    height: 24px;
+    line-height: 24px;
+    margin-right: 10px;
+}
+.name{
+    width: 200px;
+    line-height: 70px;
+}
+.text{
+    /* background-color: skyblue; */
+}
+.p1{
+    /* background-color: yellow; */
+    display: block;
+    display: flex;
+    height: 220px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #191919;
+}
+.btn{
+    width: 100%;
+    height: 400px;
+    /* background-color: pink; */
+}
+.btn1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.sp1{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    border-right: 1px solid #E5E5E5;
+    padding-right: 100px;
+}
+.sp1>img{
+    border: 10px solid #F7F7F7;
+    border-radius: 5px;
+}
+.sp1>p{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #838383;
+}
+.form{
+    width: 340px;
+}
+.sp2{
+    width: 340px;
+    display: block;
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.sp2>input{
+    width: 345px;
+    height: 48px;
+    border-radius: 15px;
+    background: #F2F2F2;
+    outline: none;
+    border: 0;
+    text-indent: 20px;
+    margin-bottom: 5px;
+    
+}
+.sp2>input:nth-of-type(1){
+    margin-top: 50px;
+}
+.sp2>input:nth-of-type(2){
+    margin-top: 20px;
+     
+}
+
+
+
+/* .sp2>p:nth-of-type(2){
+    position: absolute;
+    left: 80px;
+    top: 140px;
+    color: #9FCEFF;
+    cursor: pointer;
+} */
+.log{
+    width: 345px;
+    height: 48px;
+    border-radius: 15px;
+    background: #9FCEFF;
+    outline: none;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    /* text-indent: 20px; */
+    cursor: pointer;
+    margin-top: 40px;
+
+}
+.wenben{
+    position: absolute;
+    left: 15px;
+    top: -25px;
+    color: red;
+}
+.bug{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 500px; */
+    height: 100px;
+}
+.bug>span>a{
+    color: #007DFF;
+}
+
+
+.sw{
+    width: 100%;
+    height: 100px;
+    background-color: #F2F2F2;
+}
+.sw1{
+    width: 1200px;
+    margin: auto;
+
+
+}
+.sw2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+.sp2>.pws{
+    position: absolute;
+    /* left: 80px;
+    top: 140px; */
+    color: #9FCEFF;
+    cursor: pointer;
+}
+
+

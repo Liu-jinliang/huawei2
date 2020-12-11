@@ -1,0 +1,362 @@
+
+.header{
+  width: 100%;
+  height: 70px;
+  background-color: white;
+}
+.header1{
+  width: 1200px;
+  height: 70px;
+  margin: auto;
+}
+.header1-left{
+  float: left;
+  width: 120px;
+  height: 70px;
+}
+.header1-left>a>img{
+  width: 120px;
+  height: 36px;
+  line-height: 36px;
+  /* margin-right: 60px; */
+  cursor: pointer;
+  padding-top: 15px;
+}
+.header1-left-text{
+  float: left;
+  width: 300px;
+  height: 70px;
+  font-size: 30px;
+  color: black;
+  line-height: 70px;
+  margin-left: 30px;
+
+}
+.header1-right{
+  width: 500px;
+  height: 70px;
+  float: right;
+  line-height: 70px;
+}
+.gouwuche{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gouwuche>a{
+  color: #A1A1A1;
+}
+.gouwuche>a:nth-of-type(1){
+  color: #666666;
+}
+
+.login{
+  padding-left: 40px;
+  width: 1200px;
+  height: 50px;
+  margin: 10px auto 0 ;
+  background-color: #FFFDEE;
+  box-sizing: border-box;
+
+}
+.log{
+  width: 350px;
+  height: 50px;
+  float: left;
+}
+.log1{
+  font-size: 15px;
+  line-height: 50px;
+  height: 50px;
+  color: #CA141D;
+  background: url(../image/detail/zhuyi.png) no-repeat ;
+  background-position: 0px 17px;
+  padding-left: 17px;
+}
+.log2{
+  margin-top: 10px;
+  width:70px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background-color: #CA141D;
+  color: white;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  border: 0;
+}
+.log2>a{
+  color: white;
+}
+/* ======================= */
+
+.qxk{
+  width: 1200px;
+  height: 40px;
+  background-color: white;
+  padding-left: 40px;
+  box-sizing: border-box;
+  margin: 20px auto;
+
+}
+.checkbox{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  float: left;
+}
+
+.qxk2{
+    width: 1160px;
+    height: 40px;
+}
+.qxk2>ul{
+ display: flex;
+ font-size: 15px;
+}
+
+.qxk2>ul>.span1{
+  float: left;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 10px;
+  font-size: 13px;
+
+}
+.qxk2>ul>li{
+  width: 100px;
+  height: 40px;
+  margin-left: 40px;
+  line-height: 40px;
+  font-size: 13px;
+}
+.qxk2>ul>li:nth-of-type(1){
+  width: 450px;
+  height: 40px;
+}
+.list{
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto 0;
+  /* background-color: yellow; */
+}
+.list > .list2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  margin-bottom: 20px;
+}
+.list > .list2 > ol{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 0;
+  padding: 0 40px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.list > .list2 > ol > li{
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #A1A1A1;
+}
+.list > .list2 > ol > li > a > img{
+  width: 100px;
+  height: 100px;
+}
+.list > .list2 > ol > li > p{
+  display: flex;
+  flex-direction: column;
+}
+.list > .list2 > ol > li > p > span{
+  font-size: 16px;
+  width: 400px;
+}
+.list > .list2 > ol > li > p > b{
+  width: 80px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  padding: 5px;
+  box-sizing: border-box;
+  font-weight: 300;
+  font-size: 14px;
+}
+.list > .list2 > ol > li > b{
+  font-size: 12px;
+  margin: 0 50px;
+}
+.list > .list2 > ol > li > .inp{
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin: 0 20px;
+}
+.list > .list2 > ol > li > .inp > .subNum{
+  width: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  outline: none;
+}
+.list > .list2 > ol > li > .inp > input{
+  width: 36px;
+  height: 100%;
+  text-align: center;
+  border: 0;
+  outline: none;
+}
+.list > .list2 > ol > li > .inp > .addNum{
+  width: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  outline: none;
+}
+.list > .list2 > ol > li > span{
+  font-weight: 400;
+  font-size: 18px;
+  color: red;
+  margin-left: 10px;
+  margin-right: 30px;
+}
+.list > .list2 > ol > li > .del{
+  font-size: 14px;
+  color: #666666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+/* ================================== */
+
+
+
+
+.xiadan{
+  width: 1200px;
+  margin: auto;
+  height: 60px;
+  color: white;
+  /* background-color: pink; */
+  background-color: white;
+  padding-left: 40px;
+  box-sizing: border-box;
+
+}
+.zuo{
+  width: 70px;
+  height: 60px;
+  float: left;
+  line-height: 60px;
+  /* background-color: skyblue; */
+  font-size: 12px;
+  color: #A4A4A7;
+  cursor: pointer;
+
+}
+.zuo>input{
+  width: 14px;
+  height: 14px;
+  line-height: 14;
+  text-align: center;
+  margin-right:10px;
+}
+.del1{
+  display: block;
+  float: left;
+  font-size: 12px;
+  color:#A4A4A7;
+  width: 50px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center ;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.you{
+  width: 1000px;
+  height: 60px;
+  float: right;
+  /* background-color: skyblue; */
+}
+.you1{
+  width: 180px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+  float: right;
+  cursor: pointer;
+  background-color: #CA151E;
+}
+.you2{
+  padding-top: 10px;
+  float: right;
+  width: 300px;
+  height: 60px;
+  /* background-color: red; */
+  text-align: center;
+}
+.label{
+  display: inline;
+  font-size: 15px;
+  color: #A1A1A1;
+  
+}
+.qian{
+  font-size: 18px;
+  color: red;
+  font-weight: 700;
+}
+.num{
+  color: #A1A1A1;
+}
+.num1{
+  color: red;
+  margin: 0 5px;
+}
+
+/* ============================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
